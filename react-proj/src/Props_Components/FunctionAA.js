@@ -1,6 +1,5 @@
 import React from 'react'
 import FunctionBB from './FunctionBB';
-import FunctionB from './FunctionBB'
 
 function FunctionAA (){
 

@@ -10,7 +10,7 @@ class ClassToFunctionA extends React.Component{
  
     render(){
 return <div><h1> Class to Function AA with Array-Objects </h1>
-<ClassToFunctionB User={this.users}  />
+<ClassToFunctionB User={this.users} />
 </div>
 
     }

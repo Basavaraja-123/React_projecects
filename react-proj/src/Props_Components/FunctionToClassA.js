@@ -1,7 +1,7 @@
 import React from 'react'
 import FunctionToClassB from './FunctionToClassB'
 
-let FunctionToClassA= () => {
+let FunctionToClassA = () => {
     let ename="Chalukyaraj"
     let eid=153153
     let emailId= "Chali@gmail.com"
