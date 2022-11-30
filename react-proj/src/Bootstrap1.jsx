@@ -5,7 +5,7 @@ function Bootstrap1(){
   
   return <nav className='navbar navbar-dark bg-dark '>
 
-    <h1><a href="/">Bootstrap Example</a></h1>
+    <h1><a href="/">React Practice</a></h1>
     <div>
         <ul className="nav justify-content">
             <li><a className='navbar text-success ' href="/home">Home</a></li>
@@ -16,7 +16,7 @@ function Bootstrap1(){
         <input type="text" placeholder='Serch' />
         </ul>
         
-        
+      
     </div>
   </nav>
 }

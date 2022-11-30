@@ -7,7 +7,7 @@ class ClaToFunA extends React.Component{
     name: "Iphone 14 pro mx",
     price:  129999,
     color: ['Black','White','Gray','Gold','Blue'],
-    brand: "Iphone",
+    brand: {version1:"Iphone", version2:"Aphone",version3:"Bphone", version4:"Cphone" }
     }
 
     render( ){

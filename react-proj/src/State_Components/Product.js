@@ -8,7 +8,7 @@ class Product extends React.Component{
    
      Price: 66666,
      Qty: 1,
-    }
+    } 
      incrHandler=()=>{
         this.setState({Qty:this.state.Qty+1})
      }
