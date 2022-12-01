@@ -1,6 +1,7 @@
 import React from 'react'
 import Bootstrap1 from './Bootstrap1'
-import EventBinding from './State_Components/EventBinding'
+// import LoginEx from './ConditionalRendering/LoginEx'
+// import EventBinding from './State_Components/EventBinding'
 // import Message from './State_Components/Message'
 // import ClaToFunA from './Props_Components/ClaToFunA'
 // import ClassAA from './Components/ClassAA'
@@ -20,7 +21,8 @@ const App = ( ) => {
         <ClassToFunctionA/>*/}
          {/* <Product/>  */}
          {/* <Message/> */}
-         <EventBinding/>
+         {/* <EventBinding/> */}
+         {/* <LoginEx/> */}
          
     
          {/* <ClaToFunA /> */}
