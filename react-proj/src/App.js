@@ -1,5 +1,7 @@
 import React from 'react'
 import Bootstrap1 from './Bootstrap1'
+// import LoginForm from './State_Components/LoginForm'
+import RegistartionForm from './State_Components/RegistrationForm'
 // import LoginEx from './ConditionalRendering/LoginEx'
 // import EventBinding from './State_Components/EventBinding'
 // import Message from './State_Components/Message'
@@ -9,7 +11,6 @@ import Bootstrap1 from './Bootstrap1'
 // import FunctionAA from './Components/FunctionAA'
 // import FunctionToClassA from './Components/FunctionToClassA'
 // import Product from './State_Components/Product'
-
 
 const App = ( ) => {
   return (
@@ -22,10 +23,11 @@ const App = ( ) => {
          {/* <Product/>  */}
          {/* <Message/> */}
          {/* <EventBinding/> */}
-         {/* <LoginEx/> */}
-         
-    
+         {/* <LoginEx/> */}     
          {/* <ClaToFunA /> */}
+        {/* <LoginForm/> */}
+        <RegistartionForm/>
+         
     
     </div>
   )               

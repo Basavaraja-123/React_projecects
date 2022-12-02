@@ -4,7 +4,7 @@ import React from 'react'
 function Bootstrap1(){
   
   return <nav className='navbar navbar-dark bg-dark '>
-
+  
     <h1><a href="/">React Practice</a></h1>
     <div>
         <ul className="nav justify-content">
