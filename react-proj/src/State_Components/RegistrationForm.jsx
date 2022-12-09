@@ -11,8 +11,6 @@ class RegistartionForm extends React.Component{
             handler = (Event1) => {
             this.setState({[Event1.target.name]:Event1.target.value})
             }
-
-
   render(){
     return(
         <div>
@@ -33,8 +31,6 @@ class RegistartionForm extends React.Component{
             </form>
         </div>
     )
-
 }
-
 }
 export default RegistartionForm;
