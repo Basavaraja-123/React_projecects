@@ -1,9 +1,9 @@
 import React from 'react'
 
-import About from './Portfolio_Website/About'
-import Contact from './Portfolio_Website/Contact'
-import Home from './Portfolio_Website/Home'
-import Projects from './Portfolio_Website/Projects' 
+import About from './Portfolio_website/About'
+import Contact from './Portfolio_website/Contact'
+import Home from './Portfolio_website/Home'
+import Projects from './Portfolio_website/Projects' 
 
 import { Route,Routes} from 'react-router-dom';
 
