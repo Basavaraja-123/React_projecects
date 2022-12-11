@@ -1,7 +1,7 @@
  
- import img1 from "../Components/Proj_Img/proj1.jpg"
- import img3 from "../Components/Proj_Img/proj3.avif"
- import img4 from "../Components/Proj_Img/proj4.jpg"
+ import img1 from "./Proj_Img/proj1.jpg"
+ import img3 from "./Proj_Img/proj3.avif"
+ import img4 from "./Proj_Img/proj4.jpg"
  const projectCardData=[
     {
         imgsrc:img1, 
@@ -22,5 +22,4 @@
     view:"https://studycollections.com/"
 }
 ]
-
 export default projectCardData;
