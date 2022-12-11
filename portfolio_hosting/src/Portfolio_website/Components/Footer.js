@@ -19,7 +19,7 @@ const Footer = () => {
           </div>
           <h4>
             <div>
-              <p> #25 , 1st 3rd Cross , Gangamma temple road  Mahadevpura</p>
+              <p> #25 , 1st 3rd Cross , Gangamma temple road Mahadevpura</p>
               <p>Bangalore - 560037</p>
             </div>
           </h4>
@@ -47,7 +47,7 @@ const Footer = () => {
         <div className="right">
           <h4>About me</h4>
           <p>
-          This is me Prasana CEO & Founder of Re re-Devloper. I Enjoy the
+            This is me M Prasanna CEO & Founder of Re re-Devloper. I Enjoy the
             devloping projects and although I enjoy discossing and new projects
             disigning.
           </p>
