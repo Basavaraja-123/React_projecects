@@ -4,7 +4,6 @@ import Register from "./components/register/Register.jsx";
 import Login from "./components/login/Login.jsx";
 import Home from "./components/home/Home.jsx";
 import Profile from "./components/profile/Profile.jsx";
-
 import Navbar from "./NavbarComponents/navbar/Navbar.jsx";
 import LeftNavbar from "./NavbarComponents/leftNavbar/LeftNavbar.jsx";
 import RightNavbar from "./NavbarComponents/rightNavbar/RightNavbar.jsx";
@@ -20,8 +19,9 @@ function App() {
         <Navbar />
         <div className="" style={{ display: "flax" }}>
           <LeftNavbar />
-          <div style={{ flex: 6 }}>
+          <div style={{ flex: 6 }}> 
             <Outlet />
+            <Home/>
           </div>
 
           <RightNavbar />
