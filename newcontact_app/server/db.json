@@ -1,0 +1,153 @@
+{
+  "contacts": [
+    {
+      "id": "1001",
+      "name": "Ashok",
+      "photo URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoppd4jsd3cKg76q9_VKWl1slJ-zSWL9G-CxZwLA43U79VY0CDCf1UMMcsXVeKuuvmQqs&usqp=CAU",
+      "mobil": "984400000",
+      "email": "Ashok.kumar@gmail.com",
+      "company": "Instagram pvt.ltd",
+      "title": " Softwear Engineer",
+      "group": "1"
+    },
+    {
+      "id": "1002",
+      "name": "Vidy",
+      "photo URL": "https://w0.peakpx.com/wallpaper/726/314/HD-wallpaper-ananya-telugu-heroine-cute.jpg",
+      "mobil": "984400000",
+      "email": "Vidya@gmail.com",
+      "company": "Google pvt.ltd",
+      "title": " Softwear Engineer",
+      "group": "2"
+    },
+    {
+      "id": "1003",
+      "name": "Prasana",
+      "photo URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbFz_lq0MVtwVpHZLSnT8bVK-bWGDFHHgbnGIwdABwH4F0qUwtGftcPJcTHeqvks95BM8&usqp=CAU",
+      "mobil": "984400000",
+      "email": "prasana@gmail.com",
+      "company": "TikTok pvt.ltd",
+      "title": " Softwear Engineer",
+      "group": "3"
+    },
+    {
+      "id": "1004",
+      "name": "Chandana",
+      "photo URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHShOATFOPRV3U9L-XVnWZ7KiJL1O9r_7ELA&usqp=CAU",
+      "mobil": "984400000",
+      "email": "Chandana@gmail.com",
+      "company": "Facebook pvt.ltd",
+      "title": " Softwear Engineer",
+      "group": "4"
+    },
+    {
+      "id": "1005",
+      "name": "Lalitha",
+      "photo URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlu_h9CRR42g3kXNu0GokB3JjtvenSVlUaSQ&usqp=CAU",
+      "mobil": "984400000",
+      "email": "Ashok.kumar@gmail.com",
+      "company": "Samsung pvt.ltd",
+      "title": " Softwear Engineer",
+      "group": "5"
+    },
+    {
+      "id": "1006",
+      "name": "Chali",
+      "photo URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRajmzUOIlH-dEmeciiAhJnxLyPXnN2qPX9f4NjG8Qc4IluvuJr9EZz8pJB2AI3JI2cKkM&usqp=CAU",
+      "mobil": "984400000",
+      "email": "chali@gmail.com",
+      "company": "ProStack pvt.ltd",
+      "title": " Softwear Engineer",
+      "group": "6"
+    },
+    {
+      "id": "1007",
+      "name": "Basavaraj NM",
+      "photo URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-BSjzRIWn0AMq0U-hz2rLY2fYKZ6E_23Yek0u6QxzsOzMaNMYQucZOKDowuNuHoCrPdQ&usqp=CAU",
+      "mobil": "984400000",
+      "email": "Basavaraj.NM@gmail.com",
+      "company": "Instagram pvt.ltd",
+      "title": " Softwear Engineer",
+      "group": "7"
+    },
+    {
+      "id": "1008",
+      "name": "Pallavi",
+      "photo URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZTWo5Y8mWQqkPJuS4DXZFoiSA-tnOV79zog&usqp=CAU",
+      "mobil": "984400000",
+      "email": "Pallavi@gmail.com",
+      "company": "Twitter pvt.ltd",
+      "title": " Softwear Engineer",
+      "group": "8"
+    },
+    {
+      "query": "\n    query IntrospectionQuery {\n      __schema {\n        \n        queryType { name }\n        mutationType { name }\n        subscriptionType { name }\n        types {\n          ...FullType\n        }\n        directives {\n          name\n          description\n          \n          locations\n          args {\n            ...InputValue\n          }\n        }\n      }\n    }\n\n    fragment FullType on __Type {\n      kind\n      name\n      description\n      \n      fields(includeDeprecated: true) {\n        name\n        description\n        args {\n          ...InputValue\n        }\n        type {\n          ...TypeRef\n        }\n        isDeprecated\n        deprecationReason\n      }\n      inputFields {\n        ...InputValue\n      }\n      interfaces {\n        ...TypeRef\n      }\n      enumValues(includeDeprecated: true) {\n        name\n        description\n        isDeprecated\n        deprecationReason\n      }\n      possibleTypes {\n        ...TypeRef\n      }\n    }\n\n    fragment InputValue on __InputValue {\n      name\n      description\n      type { ...TypeRef }\n      defaultValue\n      \n      \n    }\n\n    fragment TypeRef on __Type {\n      kind\n      name\n      ofType {\n        kind\n        name\n        ofType {\n          kind\n          name\n          ofType {\n            kind\n            name\n            ofType {\n              kind\n              name\n              ofType {\n                kind\n                name\n                ofType {\n                  kind\n                  name\n                  ofType {\n                    kind\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  ",
+      "id": "3N9ra3N"
+    },
+    {
+      "query": "\n    query IntrospectionQuery {\n      __schema {\n        \n        queryType { name }\n        mutationType { name }\n        subscriptionType { name }\n        types {\n          ...FullType\n        }\n        directives {\n          name\n          description\n          \n          locations\n          args {\n            ...InputValue\n          }\n        }\n      }\n    }\n\n    fragment FullType on __Type {\n      kind\n      name\n      description\n      \n      fields(includeDeprecated: true) {\n        name\n        description\n        args {\n          ...InputValue\n        }\n        type {\n          ...TypeRef\n        }\n        isDeprecated\n        deprecationReason\n      }\n      inputFields {\n        ...InputValue\n      }\n      interfaces {\n        ...TypeRef\n      }\n      enumValues(includeDeprecated: true) {\n        name\n        description\n        isDeprecated\n        deprecationReason\n      }\n      possibleTypes {\n        ...TypeRef\n      }\n    }\n\n    fragment InputValue on __InputValue {\n      name\n      description\n      type { ...TypeRef }\n      defaultValue\n      \n      \n    }\n\n    fragment TypeRef on __Type {\n      kind\n      name\n      ofType {\n        kind\n        name\n        ofType {\n          kind\n          name\n          ofType {\n            kind\n            name\n            ofType {\n              kind\n              name\n              ofType {\n                kind\n                name\n                ofType {\n                  kind\n                  name\n                  ofType {\n                    kind\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  ",
+      "id": "RNz4oE2"
+    },
+    {
+      "id": "rpYHHNF"
+    },
+    {
+      "query": "\n    query IntrospectionQuery {\n      __schema {\n        \n        queryType { name }\n        mutationType { name }\n        subscriptionType { name }\n        types {\n          ...FullType\n        }\n        directives {\n          name\n          description\n          \n          locations\n          args {\n            ...InputValue\n          }\n        }\n      }\n    }\n\n    fragment FullType on __Type {\n      kind\n      name\n      description\n      \n      fields(includeDeprecated: true) {\n        name\n        description\n        args {\n          ...InputValue\n        }\n        type {\n          ...TypeRef\n        }\n        isDeprecated\n        deprecationReason\n      }\n      inputFields {\n        ...InputValue\n      }\n      interfaces {\n        ...TypeRef\n      }\n      enumValues(includeDeprecated: true) {\n        name\n        description\n        isDeprecated\n        deprecationReason\n      }\n      possibleTypes {\n        ...TypeRef\n      }\n    }\n\n    fragment InputValue on __InputValue {\n      name\n      description\n      type { ...TypeRef }\n      defaultValue\n      \n      \n    }\n\n    fragment TypeRef on __Type {\n      kind\n      name\n      ofType {\n        kind\n        name\n        ofType {\n          kind\n          name\n          ofType {\n            kind\n            name\n            ofType {\n              kind\n              name\n              ofType {\n                kind\n                name\n                ofType {\n                  kind\n                  name\n                  ofType {\n                    kind\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  ",
+      "id": "2IIteMU"
+    },
+    {
+      "id": "vxjF1z_"
+    },
+    {
+      "query": "\n    query IntrospectionQuery {\n      __schema {\n        \n        queryType { name }\n        mutationType { name }\n        subscriptionType { name }\n        types {\n          ...FullType\n        }\n        directives {\n          name\n          description\n          \n          locations\n          args {\n            ...InputValue\n          }\n        }\n      }\n    }\n\n    fragment FullType on __Type {\n      kind\n      name\n      description\n      \n      fields(includeDeprecated: true) {\n        name\n        description\n        args {\n          ...InputValue\n        }\n        type {\n          ...TypeRef\n        }\n        isDeprecated\n        deprecationReason\n      }\n      inputFields {\n        ...InputValue\n      }\n      interfaces {\n        ...TypeRef\n      }\n      enumValues(includeDeprecated: true) {\n        name\n        description\n        isDeprecated\n        deprecationReason\n      }\n      possibleTypes {\n        ...TypeRef\n      }\n    }\n\n    fragment InputValue on __InputValue {\n      name\n      description\n      type { ...TypeRef }\n      defaultValue\n      \n      \n    }\n\n    fragment TypeRef on __Type {\n      kind\n      name\n      ofType {\n        kind\n        name\n        ofType {\n          kind\n          name\n          ofType {\n            kind\n            name\n            ofType {\n              kind\n              name\n              ofType {\n                kind\n                name\n                ofType {\n                  kind\n                  name\n                  ofType {\n                    kind\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  ",
+      "id": "9g8a4W5"
+    },
+    {
+      "id": "-IX4E8f"
+    },
+    {
+      "id": "8BskBTc"
+    },
+    {
+      "id": "3R3h2Mx"
+    },
+    {
+      "query": "\n    query IntrospectionQuery {\n      __schema {\n        \n        queryType { name }\n        mutationType { name }\n        subscriptionType { name }\n        types {\n          ...FullType\n        }\n        directives {\n          name\n          description\n          \n          locations\n          args {\n            ...InputValue\n          }\n        }\n      }\n    }\n\n    fragment FullType on __Type {\n      kind\n      name\n      description\n      \n      fields(includeDeprecated: true) {\n        name\n        description\n        args {\n          ...InputValue\n        }\n        type {\n          ...TypeRef\n        }\n        isDeprecated\n        deprecationReason\n      }\n      inputFields {\n        ...InputValue\n      }\n      interfaces {\n        ...TypeRef\n      }\n      enumValues(includeDeprecated: true) {\n        name\n        description\n        isDeprecated\n        deprecationReason\n      }\n      possibleTypes {\n        ...TypeRef\n      }\n    }\n\n    fragment InputValue on __InputValue {\n      name\n      description\n      type { ...TypeRef }\n      defaultValue\n      \n      \n    }\n\n    fragment TypeRef on __Type {\n      kind\n      name\n      ofType {\n        kind\n        name\n        ofType {\n          kind\n          name\n          ofType {\n            kind\n            name\n            ofType {\n              kind\n              name\n              ofType {\n                kind\n                name\n                ofType {\n                  kind\n                  name\n                  ofType {\n                    kind\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  ",
+      "id": "K84Aehs"
+    },
+    {
+      "query": "\n    query IntrospectionQuery {\n      __schema {\n        \n        queryType { name }\n        mutationType { name }\n        subscriptionType { name }\n        types {\n          ...FullType\n        }\n        directives {\n          name\n          description\n          \n          locations\n          args {\n            ...InputValue\n          }\n        }\n      }\n    }\n\n    fragment FullType on __Type {\n      kind\n      name\n      description\n      \n      fields(includeDeprecated: true) {\n        name\n        description\n        args {\n          ...InputValue\n        }\n        type {\n          ...TypeRef\n        }\n        isDeprecated\n        deprecationReason\n      }\n      inputFields {\n        ...InputValue\n      }\n      interfaces {\n        ...TypeRef\n      }\n      enumValues(includeDeprecated: true) {\n        name\n        description\n        isDeprecated\n        deprecationReason\n      }\n      possibleTypes {\n        ...TypeRef\n      }\n    }\n\n    fragment InputValue on __InputValue {\n      name\n      description\n      type { ...TypeRef }\n      defaultValue\n      \n      \n    }\n\n    fragment TypeRef on __Type {\n      kind\n      name\n      ofType {\n        kind\n        name\n        ofType {\n          kind\n          name\n          ofType {\n            kind\n            name\n            ofType {\n              kind\n              name\n              ofType {\n                kind\n                name\n                ofType {\n                  kind\n                  name\n                  ofType {\n                    kind\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  ",
+      "id": "nLorNkW"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "colleague"
+    },
+    {
+      "id": "2",
+      "name": "Friends"
+    },
+    {
+      "id": "3",
+      "name": "Family"
+    },
+    {
+      "id": "4",
+      "name": "Medical"
+    },
+    {
+      "id": "5",
+      "name": "Job"
+    },
+    {
+      "id": "6",
+      "name": "Service"
+    },
+    {
+      "id": "7",
+      "name": "Shop"
+    }
+  ]
+}

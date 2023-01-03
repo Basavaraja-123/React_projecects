@@ -1,0 +1,16 @@
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap'); 
+
+ body{ font-family: 'Outfit', sans-serif !important;
+    background-color:#eee8e4 !important;
+
+}
+.contact-img{
+    width: 200px;
+    height: 200pxpx;
+    border-radius: 50%;
+}
+
+
+
+
+  
