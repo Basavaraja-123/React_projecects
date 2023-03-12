@@ -1,6 +1,7 @@
 .project_heading {
   text-align: center;
   padding: 4rem 0 2rem 0;
+ 
 }
 
 .project-container {
@@ -10,32 +11,41 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
   padding-bottom: 5rem;
+  
 }
 .project-card {
   background-color: #1a1919;
   padding: 1.2 rem 1rem;
+  
 }
 
 .project-card img {
   width: 100%;
+  
 }
 .project-title {
   color: beige;
   padding: 1rem 0;
+  
 }
 .pro-details p {
   padding-bottom: 1rem;
   font-size: 1.1rem;
   text-align: justify;
+  
 }
 .pro-btns {
   display: flex;
   justify-content: space-between;
   padding: 0.5rem 0;
+  margin-bottom: 2%;
+  margin-inline-end: 3%;
 }
 .pro-btns .btn {
   padding: 0.5rem 1rem;
+  
 }
+
 @media screen and (max-width: 740px) {
   .project-container {
     max-width: 90%;

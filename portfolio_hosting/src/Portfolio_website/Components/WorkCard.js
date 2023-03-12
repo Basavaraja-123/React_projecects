@@ -8,8 +8,8 @@ import { NavLink } from "react-router-dom";
     <img  alt="imag" src={props.imgsrc} />
     <h2 className="project-title">{props.title}</h2>
     <div className="pro-details">
-        <p>{props.text}</p>
-        <div className="pro-btns">
+        <p>{props.text}</p> 
+        <div className="pro-btns "> 
             <NavLink to={props.view} className="btn">View</NavLink>
             <NavLink to={"url.com"} className="btn">Source</NavLink>
         </div>

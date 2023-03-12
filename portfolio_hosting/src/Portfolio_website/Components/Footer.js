@@ -6,8 +6,10 @@ import {
   FaMailBulk,
   FaPhone,
   FaTwitter,
+  FaGithub,
 } from "react-icons/fa";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -19,8 +21,8 @@ const Footer = () => {
           </div>
           <h4>
             <div>
-              <p> #25 , 1st 3rd Cross , Gangamma temple road Mahadevpura</p>
-              <p>Bangalore - 560037</p>
+              <p> Mahadevpura Bangalore</p>
+              <p>  Karnataka- 560048</p>
             </div>
           </h4>
           <div className="phone">
@@ -40,33 +42,49 @@ const Footer = () => {
                 size={20}
                 style={{ color: "white", marginRight: "2rem" }}
               />
-              Info@gmail@gmail.com
+              Basavarajnm70@gmail.com
             </h4>
           </div>
         </div>
         <div className="right">
-          <h4>About me</h4>
+          <h3>About me</h3>
           <p>
-            This is me M Prasanna CEO & Founder of Re re-Devloper. I Enjoy the
-            devloping projects and although I enjoy discossing and new projects
-            disigning.
+          Looking for new opportunities and challenges to upgrade my skills and knowledge, I am always highly enthused about my work and
+tasks ahead. Proficient in HTML, JAVASCRIPT, REACT JS,REDUX,PYTHON and MONGO DB. I have always done my work with full
+dedication. I can grasp new responsibilities and new things very quickly. Also, I am a Graduate 2019 batch BCA with specialization (Computer application), so I have some knowledge
+about the latest industry. ... I will give my maximum for completing my work. "Honestly, I possess all the skills and experience that
+you're looking for. I'm pretty confident that I am the best candidate for this job role. It's not just my background in the past projects,
+ but also my people skills, which will be applicable in this position.
           </p>
-          <div className="social">
+      </div>
+
+          <div className="social " >
+            <Link to=""> 
             <FaInstagram
               size={30}
               style={{ color: "white", marginRight: "1rem" }}
             />
+            </Link>
+            <Link to=""> 
             <FaTwitter
               size={30}
               style={{ color: "white", marginRight: "1rem" }}
             />
-            <FaLinkedin
+            </Link>
+            <Link to="https://www.linkedin.com/in/basavaraja-nm" >
+            <FaLinkedin 
               size={30}
-              style={{ color: "white", marginRight: "1rem" }}
+              style={{ color: "white", marginRight: "1rem" }} 
             />
+            </Link> 
+            <Link to="https://github.com/Basavaraja-123" >
+            <FaGithub 
+              size={30}
+              style={{ color: "white", marginRight: "1rem" }} 
+            />
+            </Link>
           </div>
-        </div>
-      </div>
+      </div><br/> <br/> <br/>
     </div>
   );
 };

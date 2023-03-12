@@ -11,8 +11,7 @@ const AboutContant = () => {
         <h1> Who Am I?</h1>
         <p>
           {" "}
-          I am React frontend and Backend Devloper, I creact responsive secure websites for
-          my clints.
+          I am  a React frontend and Backend Developer, I create responsive secure websites.
         </p>
         <Link to="/Contact">
           <button className="btn">Contact</button>{" "}

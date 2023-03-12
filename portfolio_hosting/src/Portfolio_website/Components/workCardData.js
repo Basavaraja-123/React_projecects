@@ -5,15 +5,15 @@
  const projectCardData=[
     {
         imgsrc:img1, 
-        title:"Ecommerce website Design",
-        text:"A social network service is a website where people can connect with other people by sharing information. Many Social Networks are available on the internet. Facebook is the most popular social network site on the internet. It was launched in February 2004 by former-Harvard University student Mark Zuckerberg",
-        view:"https://www.paragraphbuzz.com/"
+        title:"You Tube Clone API's",
+        text:"Our clone has a lot of features. like, It's look like youtube. All the video data is coming from youtube directly. We have working search bar also which redirects user to official youtube search page. And whenever user click on video card, he/she will be redirect to youtube's official video page.", 
+        view:"https://youtube-clone-apis-app.vercel.app/"
  },
  {
     imgsrc:img3, 
-    title:"Business encyclopedia",
-    text:"E-commerce (electronic commerce) is the buying and selling of goods and services, or the transmitting of funds or data, over an electronic network, primarily the internet. These business transactions occur either as business-to-business (B2B), business-to-consumer (B2C), consumer-to-consumer or consumer-to-business.",
-    view:"https://www.shopify.com//"
+    title:"Yellow Class",
+    text:"Yellow Class is a new-age fun-learning platform where kids can learn from a wide range of classes like dancing, drawing, personality development, creative writing and so on Created a web application which allows marketing and support organizations to provide a visibility of their Product Hierarchies, order status and details of the delivery.x",
+    view:" https://www.yellowclass.com/"
 },
 {
     imgsrc:img4, 
